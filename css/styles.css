@@ -1,0 +1,47 @@
+.btn {
+    width: 60px;
+    height: 80px;
+    background: rgba(53, 53, 56, 0.425);
+    display: inline-block;
+
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+    line-height: 80px;
+    user-select: none;
+
+    border: black;
+    border: 1px;
+}
+
+.btn:hover {
+    background: rgb(12, 11, 10);
+    color: #fff;
+}
+
+#calc-wrap {
+    /* padding: 100px 10px 100px 10px; */
+    padding: 10%;
+    /* width: 100%; */
+    text-align: center;
+    background: #eee;
+}
+
+#calc {
+    width: 240px;
+    display: inline-block;
+}
+
+#inputVal {
+    /* width: 100%; */
+    width: 234px;
+    border: 1;
+    /* font-size: 20px; */
+    resize: none;
+    background: rgba(53, 53, 56, 0.425);
+
+    font-size: x-large;
+    font-family: 'Mochiy Pop One', sans-serif;
+
+}
