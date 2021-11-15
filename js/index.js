@@ -27,7 +27,7 @@ window.addEventListener("load", function OnWindowLoaded() {
 
   // текстовое поле с математическим выражением
   var textArea = document.getElementById("inputVal");
-
+  console.log(inputVal)
   // Добавление кнопок к форме калькулятора
   signs.forEach(function (sign) {
     var signElement = document.createElement("div");
